@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context="thatbiriyaniguy.xsos.MainActivity">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/reset_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginRight="42dp"
+            android:layout_toLeftOf="@+id/winner"
+            android:layout_toStartOf="@+id/winner"
+            android:paddingTop="12dp"
+            android:src="@drawable/ic_refresh_white_24dp" />
+
+        <ImageView
+            android:id="@+id/exit_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="43dp"
+            android:layout_marginStart="43dp"
+            android:layout_toEndOf="@+id/winner"
+            android:layout_toRightOf="@+id/winner"
+            android:paddingTop="12dp"
+            android:src="@drawable/ic_close_white_24dp" />
+
+        <TextView
+            android:id="@+id/winner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/reset_game"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:onClick="dropIn"
+            android:tag="0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:onClick="dropIn"
+            android:tag="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:onClick="dropIn"
+            android:tag="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:onClick="dropIn"
+            android:tag="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:onClick="dropIn"
+            android:tag="4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:onClick="dropIn"
+            android:tag="5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="56dp">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:onClick="dropIn"
+            android:tag="6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:onClick="dropIn"
+            android:tag="7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/white"/>
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:onClick="dropIn"
+            android:tag="8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

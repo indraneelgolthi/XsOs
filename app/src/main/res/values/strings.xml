@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Xs&amp;Os</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="player1">Player 1:</string>
+    <string name="player2">Player 2:</string>
+    <string name="xWon">Red Player Won !!</string>
+    <string name="oWon">Yellow Player Won !!</string>
+</resources>
