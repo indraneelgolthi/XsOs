@@ -12,12 +12,12 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    //----vars for widgets-----
+    //<----vars for widgets----->
     private TextView winner;
     private ImageView reset;
     private ImageView exit;
 
-    //----vars for game logic----
+    //<----vars for game logic---->
     int activePlayer = 0;
     int[] gameState = {2, 2, 2, 2, 2, 2, 2, 2, 2};
     int[][] winningPositions = {{0, 1, 2}, {3, 4, 5}, {6, 7, 8}, {0, 3, 6}, {1, 4, 7}, {2, 5, 8}, {0, 4, 8}, {2, 4, 6}};
